@@ -3,24 +3,17 @@
 
 <head>
     <meta charset="UTF-8">
-<<<<<<< HEAD
     <title>Survey Page</title>
-=======
     <title>Reservation Page</title>
->>>>>>> f7b96cb057254c55206aea1ed83e1aeeb580a804
 
-    <!-- Latest compiled and minified CSS & JS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
 </head>
 
 <body>
-
     <div class="container">
-
         <div class="jumbotron">
             <h1 class="text-center">Survey Questions</h1>
             <hr>
@@ -28,15 +21,17 @@
             <br>
             <div class="row">
                 <div class="col-lg-12">
-                    <!-- Reservation Page -->
+
+                    <!-- Survey Form -->
                     <form role="form">
                         <div class="form-group">
                             <label for="reserve-name">Name</label>
-                            <input type="text" class="form-control" id="name">
+                            <input type="text" class="form-control" id="name" placeholder="First and Last Name">
                         </div>
                         <div class="form-group">
                             <label for="reserve-phone">Link photo image (required)</label>
-                            <input type="text" class="form-control" id="photo-image">
+                            <input type="text" class="form-control" id="photo-image"
+                                placeholder="https://mycutepic.jpg">
                         </div>
                     </form>
                 </div>
@@ -46,197 +41,213 @@
 
     <div class="row">
         <div class="col-lg-12">
-
-<<<<<<< HEAD
             <form class="form-inline container">
-=======
-            <form class="form-inline">
->>>>>>> f7b96cb057254c55206aea1ed83e1aeeb580a804
-                <h4>Question #1</h4>
-                <div> Your mind is always buzzing with unexplored ideas and plans.</div>
-                <br></br>
-                <select class="custom-select my-1 mr-sm-2" id="inline-1">
-                    <option selected>Select an Option</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                </select>
+                <form class="form-inline">
+                    <div><strong>Question #1 </strong></div><br>
+                    <div>
+                        Your mind is always buzzing with unexplored ideas and plans.</div>
+                    <select class="custom-select my-1 mr-sm-2" id="inline-1">
+                        <option value="">Select an Option</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
 
-                <h4>Question #2</h4>
-                <div>Generally speaking, you rely more on your experience than your imagination.</div>
-                <br></br>
-                <select class="custom-select my-1 mr-sm-2" id="inline-2">
-                    <option selected>Select an Option</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                </select>
+                    <div><br><strong>Question #2 </strong></div><br>
+                    <div>Generally speaking, you rely more on your experience than your
+                        imagination.</div>
+                    <select class="custom-select my-1 mr-sm-2" id="inline-2">
+                        <option value="">Select an Option</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
 
-                <h4>Question #3</h4>
-                <div>You find it easy to stay relaxed and focused even when there is some pressure.</div>
-                <br></br>
-                <select class="custom-select my-1 mr-sm-2" id="inline-3">
-                    <option selected>Select an Option</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                </select>
+                    <div><br><strong>Question #3 </strong></div><br>
+                    <div>You find it easy to stay relaxed and focused even when
+                        there is some pressure.</div>
+                    <select class="custom-select my-1 mr-sm-2" id="inline-3">
+                        <option value="">Select an Option</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
 
-                <h4>Question #4</h4>
-                <div>You rarely do something just out of sheer curiosity.</div>
-                <br></br>
-                <select class="custom-select my-1 mr-sm-2" id="inline-4">
-                    <option selected>Select an Option</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                </select>
+                    <div><br><strong>Question #4 </strong></div><br>
+                    <div>You rarely do something just out of sheer curiosity.
+                    </div>
+                    <select class="custom-select my-1 mr-sm-2" id="inline-4">
+                        <option value="">Select an Option</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
 
-                <h4>Question #5</h4>
-                <div>People rarely upset you.</div>
-                <br></br>
-                <select class="custom-select my-1 mr-sm-2" id="inline-5">
-                    <option selected>Select an Option</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                </select>
+                    <div><br><strong>Question #5 </strong></div><br>
+                    <div>People rarely upset you.</div>
+                    <select class="custom-select my-1 mr-sm-2" id="inline-5">
+                        <option value="">Select an Option</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
 
-                <h4>Question #6</h4>
-                <div>It is often difficult for you to relate to other people's feelings.</div>
-                <br></br>
-                <select class="custom-select my-1 mr-sm-2" id="inline-6">
-                    <option selected>Select an Option</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                </select>
+                    <div><br><strong>Question #6 </strong></div><br>
+                    <div>It is often difficult for you to relate to
+                        other people's feelings.</div>
+                    <select class="custom-select my-1 mr-sm-2" id="inline-6">
+                        <option value="">Select an Option</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
 
-                <h4>Question #7</h4>
-                <div>In a discussion, truth should be more important than people's sensitivities.</div>
-                <br></br>
-                <select class="custom-select my-1 mr-sm-2" id="inline-7">
-                    <option selected>Select an Option</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                </select>
+                    <div><br><strong>Question #7 </strong></div><br>
+                    <div>In a discussion, truth should be more
+                        important than people's sensitivities.</div>
+                    <select class="custom-select my-1 mr-sm-2" id="inline-7">
+                        <option value="">Select an Option</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
 
-                <h4>Question #8</h4>
-                <div>You rarely get carried away by fantasies and ideas.</div>
-                <br></br>
-                <select class="custom-select my-1 mr-sm-2" id="inline-8">
-                    <option selected>Select an Option</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                </select>
+                    <div><br><strong>Question #8 </strong></div><br>
+                    <div>You rarely get carried away by
+                        fantasies and ideas.</div>
+                    <select class="custom-select my-1 mr-sm-2" id="inline-8">
+                        <option value="">Select an Option</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
 
-                <h4>Question #9</h4>
-                <div>You think that everyone's views should be respected regardless of whether they are supported by
-                    facts or not.</div>
-                <br></br>
-                <select class="custom-select my-1 mr-sm-2" id="inline-9">
-                    <option selected>Select an Option</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                </select>
+                    <div><br><strong>Question #9 </strong></div><br>
+                    <div>You think that everyone's views
+                        should be respected regardless of whether they are supported by
+                        facts or not.</div>
+                    <select class="custom-select my-1 mr-sm-2" id="inline-9">
+                        <option value="">Select an Option</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
 
-                <h4>Question #10</h4>
-                <div>You feel more energetic after spending time with a group of people.</div>
-                <br></br>
-                <select class="custom-select my-1 mr-sm-2" id="inline-10">
-                    <option selected>Select an Option</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                </select>
-
-                <button type="submit" class="btn btn-primary submit">Submit</button>
-            </form>
+                    <div><br><strong>Question #10 </strong></div><br>
+                    <div>You feel more energetic after
+                        spending time with a group of people.</div>
+                    <select class="custom-select my-1 mr-sm-2" id="inline-10">
+                        <option selected>Select an Option</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                    <div><br><button type="submit" class="btn btn-lg btn-danger" id="submit">Submit</button></div>
+                </form>
         </div>
     </div>
+
+    <div id=surveyModal class="modal fade" role="dialog">
+        <div class="modal-dialog"></div>
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h2 class="modal-title">Closest Friend Match!</h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <h2 id="friendMatch"></h2>
+                <img id="friendMatchImg" class="materialBoxed" width="500" src="">
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default">
+                    <a href="./survey" class="modal-close" id="close">New Survey</a>
+                </button>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <script type="text/javascript">
+        $("#submit").on("click", function (event) {
+            event.preventDefault();
+
+            var newFriend = {
+                friendName: $("#name").val().trim(),
+                photoURL: $("#photo-image").val().trim(),
+                scores: [
+                    parseInt($("#inline-1").val().trim()),
+                    parseInt($("#inline-2").val().trim()),
+                    parseInt($("#inline-3").val().trim()),
+                    parseInt($("#inline-4").val().trim()),
+                    parseInt($("#inline-5").val().trim()),
+                    parseInt($("#inline-6").val().trim()),
+                    parseInt($("#inline-7").val().trim()),
+                    parseInt($("#inline-8").val().trim()),
+                    parseInt($("#inline-9").val().trim()),
+                    parseInt($("#inline-10").val().trim())
+
+                    // $("#inline-1").val().trim(),
+                    // $("#inline-2").val().trim(),
+                    // $("#inline-3").val().trim(),
+                    // $("#inline-4").val().trim(),
+                    // $("#inline-5").val().trim(),
+                    // $("#inline-6").val().trim(),
+                    // $("#inline-7").val().trim(),
+                    // $("#inline-8").val().trim(),
+                    // $("#inline-9").val().trim(),
+                    // $("#inline-10").val().trim()
+                ]
+            };
+
+            console.log(newFriend);
+
+            $.post("/api/friends", newFriend, function (data) {
+
+                $("#friendMatch").text(data.friendMatch);
+                $("#friendMatchImg").attr("src", data.friendMatchImg);
+                $("#surveyModal").modal("toggle");
+
+            });
+
+        });
+    </script>
 
 
     <footer class="footer"></footer>
     <div class="container">
-        <p><a href="/api/friends">API Friends List</a> | <a href="https://fosfaine.github.io/FriendFinder/.">Github
-                Repo</a>
+        <p><br>
+            <a href="/api/friends">API Friends List</a> |
+            <a href="https://fosfaine.github.io/FriendFinder/.">Github Repo</a>
+        </p>
     </div>
     </footer>
-
-    </div>
 
 </body>
 
 </html>
-
-<!-- BELOW CODE IS CRITICAL. IT HANDLES HOW FORM DATA IS SENT TO OUR SERVER -->
-<script type="text/javascript">
-    // In this code below we create the Front-end JavaScript which "POSTS" our form data to our express server.
-    // In essence, when the user hits submit, jQuery grabs all of the fields then sends a post request to our api
-    // Our api recognizes the route (/api/tables)... and then runs the associated code (found in api-routes.js).
-    // In this case the associated code "saves" the data to the table-data.js file or waitinglist-data.js file
-
-    $(".submit").on("click", function (event) {
-        event.preventDefault();
-
-        // Here we grab the form elements
-        var newReservation = {
-            customerName: $("#reserve-name").val().trim(),
-            phoneNumber: $("#reserve-phone").val().trim(),
-            customerEmail: $("#reserve-email").val().trim(),
-            customerID: $("#reserve-unique-id").val().trim()
-        };
-
-        console.log(newReservation);
-
-        // This line is the magic. It"s very similar to the standard ajax function we used.
-        // Essentially we give it a URL, we give it the object we want to send, then we have a "callback".
-        // The callback is the response of the server. In our case, we set up code in api-routes that "returns" true or false
-        // depending on if a tables is available or not.
-
-        $.post("/api/tables", newReservation,
-            function (data) {
-
-                // If a table is available... tell user they are booked.
-                if (data) {
-                    alert("Yay! You are officially booked!");
-                }
-
-                // If a table is available... tell user they on the waiting list.
-                else {
-                    alert("Sorry you are on the wait list");
-                }
-
-                // Clear the form when submitting
-                $("#reserve-name").val("");
-                $("#reserve-phone").val("");
-                $("#reserve-email").val("");
-                $("#reserve-unique-id").val("");
-
-            });
-
-    });
-</script>
