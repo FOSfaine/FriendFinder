@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 var friendsData = require('../data/friends');
+=======
+var friendsData = require('../app/data/friends');
+>>>>>>> f7b96cb057254c55206aea1ed83e1aeeb580a804
 
 module.exports = function (app) {
 
