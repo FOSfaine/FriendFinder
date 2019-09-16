@@ -17,7 +17,7 @@ module.exports = function (app) {
         var friendMatch = "";
         var frendMatchImg = "";
 
-        var totalDelta = 25;
+        var totalDelta = 1000;
         var delta = 0;
 
         //Loooping friendsArray:
@@ -25,9 +25,11 @@ module.exports = function (app) {
 
             //Looping scores:
             for (var j = 0; j < friendsData[i].scores; j++) {
-                delta += Math.abs(friendsData[i].scores[j] - newFriendScores[j])
+                delta += Math.abs(friendsData[i].scores[j] - newFriendScores)
             }
-            if (delta < totalDelta) {
+            if (delta <= totalDelta) {
+
+                //There is a problem here. NewFriendName herein defined is not in anyway connected to delta<=totalDelta above...
                 newFriendName = friendsData[i].name;
                 newFriendpic = friendsData[i].photo
             }
