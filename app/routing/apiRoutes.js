@@ -17,7 +17,7 @@ module.exports = function (app) {
         var friendMatch = "";
         var frendMatchImg = "";
 
-        var totalDelta = 1000;
+        var totalDelta = 25;
         var delta = 0;
 
         //Loooping friendsArray:
